@@ -1,0 +1,10 @@
+version: "3.1"
+
+rules:
+  - rule: Inicia Formulário de Rumores
+    steps:
+      - intent: Rumor
+      - action: action_set_start_date
+      - action: action_set_reminder
+      - action: rumores_form
+      - active_loop: rumores_form

@@ -1,0 +1,15 @@
+version: "3.1"
+
+nlu:
+- intent: falta_remedio
+  examples: |
+    - Está faltando remédio
+    - Não temos mais medicamento
+    - O estoque de remédios acabou
+    - os remedios acabaram
+    - ta sem remedio no postinho
+    - no posto, estamos sem remédio...
+    - tá complicado no posto, estamos sem remédio lá
+    - não temos mais remédio no posto
+    - o posto não quer me dar remédios
+    - estou doente e o posto não quer me dar remédios

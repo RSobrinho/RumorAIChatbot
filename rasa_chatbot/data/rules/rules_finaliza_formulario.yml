@@ -1,0 +1,14 @@
+version: "3.1"
+
+rules:
+  - rule: Envia Formulário de Rumores
+    condition:
+      - active_loop: rumores_form
+    steps:
+      - action: rumores_form
+      - active_loop: null
+      - slot_was_set:
+          - requested_slot: null
+      - action: action_set_end_date
+      - action: action_cancel_reminder
+      - action: action_finalizar_formulario

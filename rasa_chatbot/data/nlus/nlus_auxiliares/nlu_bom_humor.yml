@@ -1,0 +1,19 @@
+version: "3.1"
+
+nlu:
+- intent: Bom_humor
+  examples: |
+    - Ótimo
+    - Incrível
+    - Me sinto ótimo
+    - Maravilhoso
+    - Estou me sentindo muito bem
+    - Eu estou ótimo
+    - Eu estou incrível
+    - Eu vou salvar o mundo
+    - Tô ótimo
+    - Estou muito feliz
+    - Extremamente bem
+    - Tudo tranquilo
+    - Tudo certo
+    - Tudo ótimo

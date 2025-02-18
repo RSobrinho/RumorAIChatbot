@@ -1,0 +1,15 @@
+version: "3.1"
+
+nlu:
+- intent: outros
+  examples: |
+    - outros
+    - outra coisa
+    - outra questão, não isso
+    - outro problema que estou enfrentando, não esse
+    - nada a ver
+    - quero outra coisa
+    - na verdade estou enfrentando outro problema
+    - outra questão na verdade
+    - é outra coisa na verdade
+    - outro problema na real

@@ -1,0 +1,13 @@
+version: "3.1"
+
+nlu:
+- intent: Afirmar
+  examples: |
+    - Sim
+    - Isso
+    - De fato
+    - Realmente
+    - É claro
+    - Correto
+    - Perfeito
+    - Concordo

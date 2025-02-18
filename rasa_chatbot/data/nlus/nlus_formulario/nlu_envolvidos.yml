@@ -1,0 +1,8 @@
+version: "3.1"
+
+nlu:
+- intent: Envolvidos
+  examples: |
+    - [1](envolvidos) pessoa
+    - [2](envolvidos) adultos
+    - [3](envolvidos) crianças

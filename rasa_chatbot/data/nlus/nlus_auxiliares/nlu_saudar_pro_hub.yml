@@ -1,0 +1,114 @@
+version: "3.1"
+
+nlu:
+- intent: SaudarProHub
+  examples: |
+    - Oi
+    - Ola
+    - Eae
+    - Fala fiote
+    - Aoba
+    - Salve
+    - Bom dia
+    - Dia
+    - Boa Tarde
+    - Tarde
+    - Boa noite
+    - Noite
+    - Bão?
+    - oi, tudo bem?
+    - tudo bem?
+    - eai, tudo bem?
+    - oi, eai
+    - tudo bem?
+    - eaii, tranquilo?
+    - boaa
+    - falaa, eaii?
+    - salve, tranquilo?
+    - bom dia rumorAIChatbot
+    - eaii rumorAIChatbot
+    - Olá, como vai?
+    - Como está?
+    - Olá, tudo bom?
+    - Oi, como vai?
+    - Oi, como está?
+    - Oi, rumorAIChatbot
+    - Bom dia, tudo bem?
+    - Boa tarde, como vai?
+    - Boa noite, tudo bom?
+    - E aí, como está?
+    - Saudações
+    - Olá, rumorAIChatbot
+    - Oi, oi
+    - Tudo certo?
+    - Olá, como está você?
+    - Oi, tudo certo?
+    - Como estão as coisas?
+    - E aí, beleza?
+    - E aí, tranquilo?
+    - Opa
+    - Opa, tudo bom?
+    - E aí, tudo certo?
+    - Como vai?
+    - Como vai, rumorAIChatbot?
+    - Boa tarde, rumorAIChatbot
+    - Boa noite, rumorAIChatbot
+    - Bom dia, como está?
+    - E aí, rumorAIChatbot?
+    - Olá, como você está?
+    - Oi, como você está?
+    - Olá, tudo bem com você?
+    - Olá, tudo certo por aí?
+    - Oi, como estão as coisas por aí?
+    - E aí, tudo bom?
+    - Olá, tudo jóia?
+    - Oi, tudo jóia?
+    - Oi, e aí, tudo certo?
+    - Olá, e aí, tudo tranquilo?
+    - Saudações, rumorAIChatbot
+    - Como está você hoje?
+    - Como estão as coisas, rumorAIChatbot?
+    - Tudo bem por aí?
+    - Oi, tudo beleza?
+    - Tudo jóia?
+    - Fala, tudo certo?
+    - E aí, como você está?
+    - Oi, bom dia
+    - Oi, boa tarde
+    - Oi, boa noite
+    - Olá, bom dia
+    - Olá, boa tarde
+    - Olá, boa noite
+    - Olá, como vão as coisas?
+    - E aí, como vão as coisas?
+    - Como está indo?
+    - Tudo bem com você?
+    - E aí, como estão as coisas?
+    - Como vai você?
+    - Oi, tudo tranquilo?
+    - Tudo certo com você?
+    - teste
+    - testando chatbot
+    - testando um chatbot
+    - testando
+    - fazendo testes
+    - teste 123
+    - Eu quero reportar um rumor
+    - Não sei como, mas quero reportar um rumor
+    - Como faço pra reportar um Rumor?
+    - Onde eu reporto os rumores?
+    - Eu quero reportar um caso
+    - Acho que preciso reportar um caso
+    - Tem um caso que eu quero reportar
+    - to precisando reportar um rumor
+    - rumor, quero reportar
+    - quero descrever um rumor
+    - cadastrar um rumor
+    - preciso cadastrar um rumor
+    - to querendo mandar um novo rumor
+    - quero mandar um rumor
+    - quero enviar um rumor
+    - enviar um rumor
+    - mandar um rumor
+    - Reportar um rumor
+    - Reportar um Rumor

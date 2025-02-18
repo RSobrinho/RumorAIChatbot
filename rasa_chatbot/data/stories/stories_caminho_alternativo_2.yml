@@ -1,0 +1,10 @@
+version: "3.1"
+
+stories:
+  - story: Caminho outros 1
+    steps:
+      - intent: SaudarProHub
+      - action: action_sauda_rumor_ai_chatbot
+      - intent: outros
+      - action: action_explicar_limitacoes
+      - action: action_finalizar_sem_rumor

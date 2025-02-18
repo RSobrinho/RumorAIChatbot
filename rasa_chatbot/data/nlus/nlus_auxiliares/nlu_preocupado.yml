@@ -1,0 +1,14 @@
+version: "3.1"
+
+nlu:
+- intent: preocupado
+  examples: |
+    - Estou preocupado
+    - Estou com uma preocupação
+    - Tenho uma preocupação
+    - estou preocupado
+    - tava preocupado ontem
+    - então, estou preocupado
+    - sabe, fiquei preocupado
+    - fiquei preocupado
+    - to ficando preocupado

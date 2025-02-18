@@ -1,0 +1,8 @@
+version: "3.1"
+
+nlu:
+- intent: Rumor
+  examples: |
+    - Eu quero reportar um rumor
+    - Não sei como, mas quero reportar um rumor
+    - Como faço pra reportar um Rumor?

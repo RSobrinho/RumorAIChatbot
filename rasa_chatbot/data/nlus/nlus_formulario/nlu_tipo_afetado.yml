@@ -1,0 +1,8 @@
+version: "3.1"
+
+nlu:
+- intent: Tipo_Afetados
+  examples: |
+    - [Pessoas](tipo_afetado)
+    - [Animais](tipo_afetado)
+    - [Meio Ambiente](tipo_afetado)

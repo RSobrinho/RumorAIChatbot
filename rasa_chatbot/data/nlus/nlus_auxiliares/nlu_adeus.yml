@@ -1,0 +1,15 @@
+version: "3.1"
+
+nlu:
+- intent: Adeus
+  examples: |
+    - Tchau
+    - Até mais
+    - Adeus
+    - Até logo
+    - Até
+    - Até nunca mais
+    - Tchau, robo
+    - Obrigado, robo. Até mais
+    - Tchau, tchau
+    - Te vejo em breve

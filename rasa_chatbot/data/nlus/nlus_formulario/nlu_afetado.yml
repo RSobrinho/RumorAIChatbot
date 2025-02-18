@@ -1,0 +1,14 @@
+version: "3.1"
+
+nlu:
+- intent: Afetados
+  examples: |
+    - [Adultos](afetados)
+    - [Crianças](afetados)
+    - [Idosos](afetados)
+    - [Animais domésticos](afetados)
+    - [Animais de Produção](afetados)
+    - [Animais selvagens](afetados)
+    - [Poluicao](afetados)
+    - [Desastres Naturais](afetados)
+    - [Não sei](afetados)

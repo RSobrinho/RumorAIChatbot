@@ -1,0 +1,152 @@
+version: "3.1"
+
+entities:
+  - tipo_afetado
+  - descricao
+  - afetados
+  - envolvidos
+  - sabe_quando
+  - quando_ocorreu
+  - onde_ocorreu
+  - detalhes
+
+slots:
+  was_timeout:
+    type: bool
+    influence_conversation: false
+    mappings: []
+  start_date:
+    type: text
+    influence_conversation: false
+    mappings: []
+  end_date:
+    type: text
+    influence_conversation: false
+    mappings: []
+  tipo_afetado:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: rumores_form
+            requested_slot: tipo_afetado
+  descricao:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: rumores_form
+            requested_slot: descricao
+  afetados:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: rumores_form
+            requested_slot: afetados
+  envolvidos:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: rumores_form
+            requested_slot: envolvidos
+  sabe_quando:
+    type: bool
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: rumores_form
+            requested_slot: sabe_quando
+  quando_ocorreu:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: rumores_form
+            requested_slot: quando_ocorreu
+  onde_ocorreu:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: rumores_form
+            requested_slot: onde_ocorreu
+  detalhes:
+    type: text
+    influence_conversation: true
+    mappings:
+      - type: from_text
+        conditions:
+          - active_loop: rumores_form
+            requested_slot: detalhes
+
+forms:
+  rumores_form:
+    required_slots:
+      - tipo_afetado
+      - descricao
+      - afetados
+      - envolvidos
+      - sabe_quando
+      - quando_ocorreu
+      - onde_ocorreu
+      - detalhes
+
+intents:
+  - SaudarProHub
+  - Adeus
+  - Afirmar
+  - Negar
+  - Bom_humor
+  - Mau_humor
+  - Desafia_o_robo
+  - Rumor
+  - Tipo_Afetados
+  - Descricao
+  - Envolvidos
+  - Afetados
+  - outros
+  - nlu_fallback
+  - para_que_serve
+  - pedir_ajuda
+  - preocupado
+  - falta_remedio
+  - EXTERNAL_reminder
+
+actions:
+  - action_sauda_rumor_ai_chatbot
+  - action_ask_tipo_afetado
+  - action_ask_afetados
+  - action_ask_descricao
+  - action_ask_sabe_quando
+  - action_ask_quando_ocorreu
+  - action_ask_envolvidos
+  - action_ask_onde_ocorreu
+  - action_ask_detalhes
+  - action_set_start_date
+  - action_set_end_date
+  - action_finalizar_com_rumor
+  - action_finalizar_sem_rumor
+  - action_explicar_limitacoes
+  - action_explicar_duvidas
+  - action_bot_nao_entendeu
+  - invoca_pergunta_ajudou
+  - invoca_responde_feliz
+  - invoca_responde_adeus
+  - invoca_responde_robo
+  - invoca_responde_animar
+  - validate_rumores_form
+  - action_set_reminder
+  - action_finalizar_formulario
+  - action_cancel_reminder
+
+session_config:
+  session_expiration_time: 60

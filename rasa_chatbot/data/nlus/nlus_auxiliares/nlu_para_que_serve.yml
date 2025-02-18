@@ -1,0 +1,35 @@
+version: "3.1"
+
+nlu:
+- intent: para_que_serve
+  examples: |
+    - Para que serve isso?
+    - Qual é a utilidade disso?
+    - Como isso funciona?
+    - Pode me explicar?
+    - Pode me explicar como isso funciona?
+    - mas porque isso existe?
+    - queria uma explicação de como isso funciona
+    - quero saber como funciona
+    - quero entender como funciona
+    - preciso entender como mexer nisso
+    - Qual é a utilidade?
+    - Mas para que serve tudo isso?
+    - Pode me explicar pra que serve?
+    - quero testar, e pra isso preciso entender como funciona
+    - como testa isso?
+    - estou com dúvidas
+    - quero entender mais
+    - não entendi, pode me explicar melhor?
+    - ainda não peguei
+    - to com dúvida
+    - dúvida
+    - não entendi real, me explica melhor
+    - to com dúvida
+    - quero algum suporte
+    - to com uma dúvida
+    - que que isso?
+    - sabe, estou com dúvidas
+    - então, to com dúvidas ainda
+    - pode me explicar melhor?
+    - não peguei a ideia

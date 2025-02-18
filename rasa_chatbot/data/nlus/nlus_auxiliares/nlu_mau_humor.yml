@@ -1,0 +1,23 @@
+version: "3.1"
+
+nlu:
+- intent: Mau_humor
+  examples: |
+    - Meu dia foi terrível
+    - Tô triste
+    - Estou triste
+    - Eu não me sinto muito bem
+    - Eu estou desapontado
+    - Muito triste
+    - Estou muito triste
+    - Triste
+    - Não tô feliz
+    - Não estou feliz
+    - Não tô bem
+    - Não estou bem
+    - Não to legal
+    - Não estou legall
+    - Não to muito bem
+    - Não estou muito bem
+    - Mó bad
+    - Tô sad cara

@@ -1,0 +1,19 @@
+version: "3.1"
+
+nlu:
+- intent: pedir_ajuda
+  examples: |
+    - Preciso de ajuda
+    - Pode me ajudar?
+    - Estou precisando de assistência
+    - quero uma ajuda
+    - sabe, preciso de ajuda
+    - to precisando duma ajuda
+    - pode mê ajudar
+    - pd me ajudar?
+    - to precisando de um socorro
+    - ME AJUDA!
+    - ME AJUDA POR FAVOR!
+    - quero ajuda nisso
+    - to precisando de alguma ajuda
+    - pode me dar qualquer ajuda ou suporte?

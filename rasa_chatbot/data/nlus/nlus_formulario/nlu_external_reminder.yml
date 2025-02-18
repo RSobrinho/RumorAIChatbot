@@ -1,0 +1,8 @@
+version: "3.1"
+
+nlu:
+- intent: EXTERNAL_reminder
+  examples: |
+    - EXTERNAL_reminder
+    - external_reminder
+    - external reminder

@@ -1,0 +1,10 @@
+version: "3.1"
+
+stories:
+  - story: Caminho duvidas 1
+    steps:
+      - intent: SaudarProHub
+      - action: action_sauda_rumor_ai_chatbot
+      - intent: para_que_serve
+      - action: action_explicar_duvidas
+      - action: action_finalizar_sem_rumor

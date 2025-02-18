@@ -1,0 +1,12 @@
+version: "3.1"
+
+nlu:
+- intent: Negar
+  examples: |
+    - Não
+    - n
+    - De jeito nenhum
+    - Acredito que não
+    - Não serve
+    - De maneira alguma
+    - Acho que não

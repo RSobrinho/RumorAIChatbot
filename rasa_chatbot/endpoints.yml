@@ -1,0 +1,17 @@
+# This file contains the different endpoints your bot can use.
+
+custom_whatsapp_connector.CustomWhatsappInput:
+  webhook_url: "https://rumor-ai-chatbot-250b.up.railway.app/webhooks/whatsapp/webhook"
+#   webhook_url: "http://localhost:5005/webhooks/whatsapp/webhook"
+
+action_endpoint:
+  url: "https://any-staging.up.railway.app/webhook"
+#   url: http://localhost:5055/webhook
+
+tracker_store:
+  type: SQL
+  dialect: "mysql+pymysql" # the dialect used to interact with the db
+  url: "any.url.net:56722" # (optional) host of the sql db, e.g. "localhost"
+  db: "railway" # path to your db
+  username: "root" # username used for authentication
+  password: "anyPass"

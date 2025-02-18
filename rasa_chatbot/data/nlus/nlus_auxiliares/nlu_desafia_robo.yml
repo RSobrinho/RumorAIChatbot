@@ -1,0 +1,9 @@
+version: "3.1"
+
+nlu:
+- intent: Desafia_o_robo
+  examples: |
+    - Cê é um robo, né não?
+    - Você é humano?
+    - Eu to falando com um humano?
+    - Por acaso você é humano?
